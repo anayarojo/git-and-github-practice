@@ -1,6 +1,7 @@
 # Practice with Git and Github
 
 |Command|Description|
+|-------|-----------|
 |`git version`||
 |`git help`||
 |`git help commit`||
