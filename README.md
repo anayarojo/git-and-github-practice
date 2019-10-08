@@ -9,6 +9,8 @@
 |`git config --global user.email <email>`|Configurar globalmente el correo electrónico.|
 |`git init`|Iniciar git en un nuevo proyecto.|
 |`git status`|Obtener el estado de los archivos en git.|
+|`git status -s`|Obtener el estado de los archivos en git, omitiendo datos innecesarios.|
+|`git status -s -b`|Obtener el estado de los archivos en git, omitiendo datos innecesarios, incluyendo los nombres de las ramas.|
 |`git add <.\|--all\|file\|*.html\|".html"\|folder/\|folder/*.extension>`|Agregar archivo a git|
 |`git reset <.\|--all\|file\|*.html\|".html"\|folder/\|folder/*.extension>`|Quitar archivo de git|
 |`git commit -m <message>`|Agregar un nuevo `commit`|
