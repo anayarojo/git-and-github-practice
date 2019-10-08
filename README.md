@@ -11,7 +11,13 @@
 |`git status`|Obtener el estado de los archivos en git.|
 |`git status -s`|Obtener el estado de los archivos en git, omitiendo datos innecesarios.|
 |`git status -s -b`|Obtener el estado de los archivos en git, omitiendo datos innecesarios, incluyendo los nombres de las ramas.|
-|`git add <.\|--all\|file\|*.html\|".html"\|folder/\|folder/*.extension>`|Agregar archivo a git|
-|`git reset <.\|--all\|file\|*.html\|".html"\|folder/\|folder/*.extension>`|Quitar archivo de git|
+|`git add <.\|--all\|-A>`|Agregar todos los archivos al stage.|
+|`git add <*.extension\|folder/*.extension>`|Agregar todos los archivos, de una extension específica, al stage.|
+|`git add <folder/>`|Agregar todos los archivos, de una carpeta específica, al stage.|
+|`git add <file>`|Agregar archivo específico al stage.|
+|`git reset <.\|--all\|-A>`|Quitar todos los archivos del stage.|
+|`git reset <*.extension\|folder/*.extension>`|Quitar todos los archivos, de una extension específica, del stage.|
+|`git reset <folder/>`|Quitar todos los archivos, de una carpeta específica, del stage.|
+|`git reset <file>`|Quitar archivo específico del stage.|
 |`git commit -m <message>`|Agregar un nuevo `commit`|
 |`git checkout -- <.>`|Rrcuperar todo el proyecto hasta el ultimo commit|
