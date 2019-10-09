@@ -20,4 +20,8 @@
 |`git reset <folder/>`|Quitar todos los archivos, de una carpeta específica, del stage.|
 |`git reset <file>`|Quitar archivo específico del stage.|
 |`git commit -m <message>`|Agregar un nuevo `commit`|
-|`git checkout -- <.>`|Rrcuperar todo el proyecto hasta el ultimo commit|
+|`git checkout -- <.>`|Establecer el proyecto con el ultimo `commit`|
+|`git config --global alias.<alias> "<command>"`|Configurar un comando con un alias|
+|`git config --global -l`|Listar configuraciones globales|
+|`git config --global -e`|Editar configuraciones globales|
+
