@@ -24,4 +24,8 @@
 |`git config --global alias.<alias> "<command>"`|Configurar un comando con un alias|
 |`git config --global -l`|Listar configuraciones globales|
 |`git config --global -e`|Editar configuraciones globales|
+|`git diff`|Lista las diferencias respecto al ultimo `commit`.|
+|`git diff --stage`|Lista las diferencias del `stage` respecto al ultimo `commit`.|
+|`git reset HEAD <File>`|Quitar archivo del `stage`.|
+|`git checkout -- <File>`|Recuperar un archivo desde el ultimo `commit`.|
 
