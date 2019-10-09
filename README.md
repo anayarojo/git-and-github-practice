@@ -28,4 +28,6 @@
 |`git diff --stage`|Lista las diferencias del `stage` respecto al ultimo `commit`.|
 |`git reset HEAD <File>`|Quitar archivo del `stage`.|
 |`git checkout -- <File>`|Recuperar un archivo desde el ultimo `commit`.|
+|`git commit --amend -m "<New message>"`|Cambiar el mensaje del ultimo `commit`.|
+|`git reset --soft HEAD^`|Deshacer el ultimo commit sin eliminar los cambios.|
 
