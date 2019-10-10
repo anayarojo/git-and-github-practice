@@ -17,7 +17,7 @@
 |`git status`|Obtener el estado de los archivos en git.|
 |`git add <.\|--all\|-A>`|Agregar todos los archivos al stage.|
 |`git commit -m <message>`|Agregar un nuevo `commit`|
-|`git push <origin|remote> <branch|master>`|Subir cambios|
+|`git push <origin\|remote> <branch\|master>`|Subir cambios|
 
 ### Status
 
