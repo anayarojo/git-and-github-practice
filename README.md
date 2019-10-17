@@ -72,6 +72,12 @@
 |`git checkout -- <.>`|Establecer el proyecto con el ultimo `commit`|
 |`git checkout -- <File>`|Recuperar un archivo desde el ultimo `commit`.|
 
+### File
+|Command|Description|
+|-------|-----------|
+|`git mv <file_name> <new_file_name>`|Renombrar o mover un archivo.|
+|`git rm <file_name>`|Eliminar archivo.|
+
 ### Help and others
 
 |Command|Description|
