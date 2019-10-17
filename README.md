@@ -80,6 +80,13 @@
 |`git branch -l`|Listar todas las `branches`.|
 |`git branch -D <branch_name>`|Eliminar una `branch`.|
 |`git checkout <branch_name>`|Cambiar de `branch`.|
+|`git diff <branch_A> <branch_B>`|Obtener las diferencias entre dos `branches`.|
+|`git merge <branch_name>`|Mezclar `branch` indicada dentro de la `branch` actual. Métodos para mezclar: `fast forward`, `recursive`|
+
+#### Notas:
+
+- Se requiere un merge `fast forwar` cuando los cambios de diferentes ramas no estan en los mismos archivos.
+- Se requiere un merge `recursive` cuando los cambios de diferentes ramas estan en los mismos archivos.
 
 ### File
 |Command|Description|
