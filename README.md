@@ -73,6 +73,14 @@
 |`git checkout -- <.>`|Establecer el proyecto con el ultimo `commit`|
 |`git checkout -- <File>`|Recuperar un archivo desde el ultimo `commit`.|
 
+### Branch
+|Command|Description|
+|-------|-----------|
+|`git branch <branch_name>`|Crear un nuevo `branch` o rama.|
+|`git branch -l`|Listar todas las `branches`.|
+|`git branch -D <branch_name>`|Eliminar una `branch`.|
+|`git checkout <branch_name>`|Cambiar de `branch`.|
+
 ### File
 |Command|Description|
 |-------|-----------|
