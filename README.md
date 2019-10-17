@@ -52,7 +52,11 @@
 |`git reset <folder/>`|Quitar todos los archivos, de una carpeta específica, del stage.|
 |`git reset <file>`|Quitar archivo específico del stage.|
 |`git reset HEAD <File>`|Quitar archivo del `stage`.|
-|`git reset --soft HEAD^`|Deshacer el ultimo commit sin eliminar los cambios.|
+|`git reset --soft HEAD^`|Deshacer el ultimo `commit` sin eliminar los cambios, dejando los cambios sin eliminar en el `stage`.|
+|`git reset --mixed <hash>`|Deshacer todos los `commits` hasta llegar al `commit` con `hash` indicado, conservando los cambios y los archivos de los `commits` eliminados.|
+|`git reset --hard <hash>`|Deshacer todos los `commits` hasta llegar al `commit` con `hash` indicado, borrando todos los cambios de los `commit` eliminados.|
+|`git reflog`|Obtener el registro de todos los movimientos que se han hecho en el respositorio, con este comando se puede recuperar el `hash` de `commits` eliminados.|
+
 
 ### Diff
 
