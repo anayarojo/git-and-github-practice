@@ -35,6 +35,7 @@
 |`git add <*.extension\|folder/*.extension>`|Agregar todos los archivos, de una extension específica, al stage.|
 |`git add <folder/>`|Agregar todos los archivos, de una carpeta específica, al stage.|
 |`git add <file>`|Agregar archivo específico al stage.|
+|`git add -u`|Agregar todos los archivos actualizados al stage.|
 
 ### Commit
 
