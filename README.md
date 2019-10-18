@@ -42,6 +42,7 @@
 |Command|Description|
 |-------|-----------|
 |`git commit -m <message>`|Agregar un nuevo `commit`|
+|`git commit -am <message>`|Agregar un nuevo `commit` agregando al `stage` todos los cambios.|
 |`git commit --amend -m "<New message>"`|Cambiar el mensaje del ultimo `commit`.|
 
 ### Reset 
@@ -98,11 +99,37 @@
 |`git tag -d <tag_name>`|Eliminar `tag`.|
 |`git show <tag_name>`|Mostrar los detalles de un `tag`.|
 
+### Stash
+|Command|Description|
+|-------|-----------|
+|`git stash`|Enviar todos los cambios actuales al `stash`.|
+|`git stash save`|Enviar todos los cambios actuales al `stash`.|
+|`git stash list`|Listar los `stashes`.|
+|`git stash apply`|Recupera los cambios guardados en el ultimo `stash`.|
+|`git stash apply <stash@{#}>`|Recupera los cambios guardados en un `stash` específico.|
+|`git stash pop`|Recupera los cambios guardados en el ultimo `stash` y lo elimina de la lista de `stashes`.|
+|`git stash drop`|Elimina el ultimo `stash`.|
+|`git stash drop <stash@{#}>`|Elimina un `stash` específico.|
+
+#### Options:
+
+- `git stash save --keep-index` guarda todo menos los arhicovs en el `stage`.
+- `git stash save --include-untracked` incluye todos los archivos, junto a los que git no le da seguimiento.
+- `git stash save "<message>"` incluye un mensaje al `stash`.
+- `git stash list --stat` muestra la lista de `stashes` con mas detalles.
+- `git stash clear` elimina todos los stashes.
+
 ### File
 |Command|Description|
 |-------|-----------|
 |`git mv <file_name> <new_file_name>`|Renombrar o mover un archivo.|
 |`git rm <file_name>`|Eliminar archivo.|
+
+### Show
+|Command|Description|
+|-------|-----------|
+|`git show <tag_name>`|Mostrar los detalles de un `tag`.|
+|`git show <stash>`|Mostrar los detalles de un `stash`.|
 
 ### Help and others
 
