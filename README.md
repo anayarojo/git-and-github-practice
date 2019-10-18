@@ -88,6 +88,16 @@
 - Se requiere un merge `fast forwar` cuando los cambios de diferentes ramas no estan en los mismos archivos.
 - Se requiere un merge `recursive` cuando los cambios de diferentes ramas estan en los mismos archivos.
 
+### Tag
+|Command|Description|
+|-------|-----------|
+|`git tag`|Listar `tags`.|
+|`git tag <tag_name>`|Crear un nuevo `tag`.|
+|`git tag -a <tag_name> -m "<message|annotation>"`|Crear un nuevo `tag` con anotación.|
+|`git tag -a <tag_name> <hash> -m "<message|annotation>"`|Crear un nuevo `tag` con anotación para un `commit` específico.|
+|`git tag -d <tag_name>`|Eliminar `tag`.|
+|`git show <tag_name>`|Mostrar los detalles de un `tag`.|
+
 ### File
 |Command|Description|
 |-------|-----------|
