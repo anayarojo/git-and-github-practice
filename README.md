@@ -119,6 +119,31 @@
 - `git stash list --stat` muestra la lista de `stashes` con mas detalles.
 - `git stash clear` elimina todos los stashes.
 
+### Rebase
+|Command|Description|
+|-------|-----------|
+|`git rebase <branch_name>`|Toma los `commits` diferentes de la rama actual los mueve a un area temporal, mientras mueve el `head` a la rama indicada para posteriormete poner encima los commits de la rama actual.|
+|`git rebase -i <HEAD~{#}>\|hash`|Tomar el `commit` o `commits` indicados para interactuar con ellos.|
+
+#### Uso del rebase interactivo:
+
+- Ordernar commits
+- Corregir mensajes de los commits
+- Unir commits
+- Separar commits
+
+#### Comandos del rebase interactivo:
+|Command|Description|
+|-------|-----------|
+|`p, pick`|Usar el `commit`.|
+|`r, rework`|Usar el `commit` y editar el mensaje.|
+|`e, edit`|Usar el `commit` y editar el contenido.|
+|`s, squash`|Usar el `commit` y unirlo dentro del `commit` anterior.|
+|`f, fixup`|Usar el `commit` y hacer `squash` pero sin solicitar mensaje.|
+|`x, exec`|Ejecutar comando.|
+|`d, drop`|Eliminar `commit`.|
+
+
 ### File
 |Command|Description|
 |-------|-----------|
