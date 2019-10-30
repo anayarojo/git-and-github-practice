@@ -123,7 +123,7 @@
 |Command|Description|
 |-------|-----------|
 |`git rebase <branch_name>`|Toma los `commits` diferentes de la rama actual los mueve a un area temporal, mientras mueve el `head` a la rama indicada para posteriormete poner encima los commits de la rama actual.|
-|`git rebase -i <HEAD~{#}>\|hash`|Tomar el `commit` o `commits` indicados para interactuar con ellos.|
+|`git rebase -i <HEAD~#>\|hash`|Tomar el `commit` o `commits` indicados para interactuar con ellos.|
 
 #### Uso del rebase interactivo:
 
