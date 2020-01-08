@@ -143,6 +143,10 @@
 |`x, exec`|Ejecutar comando.|
 |`d, drop`|Eliminar `commit`.|
 
+#### Mas opciones para rebase:
+`git rebase --continue | --skip | --abort | --edit-todo`
+
+
 
 ### File
 |Command|Description|
