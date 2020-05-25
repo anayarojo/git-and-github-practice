@@ -7,7 +7,7 @@
 |`git config --global user.name <name>`|Configurar globalmente el nombre de usuario.|
 |`git config --global user.email <email>`|Configurar globalmente el correo electrónico.|
 
-### Commonds
+### Commons
 
 |Command|Description|
 |-------|-----------|
@@ -145,8 +145,6 @@
 
 #### Mas opciones para rebase:
 `git rebase --continue | --skip | --abort | --edit-todo`
-
-
 
 ### File
 |Command|Description|
