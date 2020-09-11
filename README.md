@@ -97,6 +97,7 @@
 |`git tag -a <tag_name> -m "<message\|annotation>"`|Crear un nuevo `tag` con anotación.|
 |`git tag -a <tag_name> <hash> -m "<message\|annotation>"`|Crear un nuevo `tag` con anotación para un `commit` específico.|
 |`git tag -d <tag_name>`|Eliminar `tag`.|
+|`git push -d origin <tagname>`|Eliminar `tag` en `origin`.|
 |`git show <tag_name>`|Mostrar los detalles de un `tag`.|
 
 ### Stash
