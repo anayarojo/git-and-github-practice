@@ -169,3 +169,29 @@
 |`git config --global alias.<alias> "<command>"`|Configurar un comando con un alias|
 |`git config --global -l`|Listar configuraciones globales|
 |`git config --global -e`|Editar configuraciones globales|
+
+### Notes
+
+Untrack files already added to git respository based on .gitignore
+
+1. Commit all your changes.
+2. Remove everything from the repository
+```bash
+git rm -r --cached .
+```
+
+3. Re add everything
+```bash
+git add .
+```
+
+4. Commit
+```
+git commit -m ".gitignore fix"
+```
+
+
+
+
+
+
