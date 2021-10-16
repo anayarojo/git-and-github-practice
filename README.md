@@ -170,6 +170,12 @@
 |`git config --global -l`|Listar configuraciones globales|
 |`git config --global -e`|Editar configuraciones globales|
 
+My global alias
+```sh
+git config --global alias.s "status -s -b"
+git config --global alias.l "log --oneline --graph"
+```
+
 ### Notes
 
 Untrack files already added to git respository based on .gitignore
